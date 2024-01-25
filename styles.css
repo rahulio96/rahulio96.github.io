@@ -20,10 +20,12 @@ nav {
 
 .name {
     cursor: pointer;
+    padding: 0px 20px;
 }
 
 nav ul {
     list-style: none;
+    display: flex;
 }
 
 nav ul li {
@@ -38,4 +40,41 @@ nav ul li a {
 nav ul li a:hover {
     transition: all 0.3s ease 0s;
     color:#F85C70;
+}
+
+.burger {
+    transition: all 0.3s ease 0s;
+    font-size: 1.5em;
+    cursor: pointer;
+    display: none;
+    padding: 0px 20px;
+}
+
+@media only screen and (max-width: 768px) {
+    nav ul {
+        top: 75px;
+        right: -100%;
+        position: fixed;
+        flex-direction: column;
+        width: 100%;
+        text-align: center;
+        transition: 0.3s;
+        background-color: #1f3046;
+    }
+
+    nav ul li {
+        padding: 10px;
+    }
+
+    nav ul.show {
+        right:0;
+    }
+
+    .burger.change {
+        color:#F85C70;
+    }
+
+    .burger {
+        display:block;
+    }
 }
