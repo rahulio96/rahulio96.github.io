@@ -4,6 +4,7 @@
     text-decoration: none;
     margin: 0;
     padding: 0;
+    scroll-behavior: smooth;
 }
 
 body {
@@ -54,6 +55,7 @@ nav ul li a:hover {
     display: grid;
     justify-content: center;
     padding: 35px 10%;
+    margin: 0 auto;
     margin-top: 8em;
     text-align: center;
 }
@@ -61,23 +63,45 @@ nav ul li a:hover {
 .sub-title {
     font-size: x-large;
     border-top: 4px solid #F85C70;
-    margin-top: 10%;
-    margin-bottom: 10%;
     padding-top: 10px;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 20%;
 }
 
 .title {
     font-size: xx-large;
-    border-bottom: 4px solid #F85C70;
+    width: 100%;
+    margin: 0 auto;
     margin-top: 10%;
-    margin-bottom: 10%;
-    padding-bottom: 10px;
-    width: 250px;
+    padding-bottom: 20px;
+}
+
+.line {
+    border: 2px solid #F85C70;
+    margin: 0 auto;
+    width: 20%;
+    margin-bottom: 20px;
 }
 
 .image {
     width: 100%;
     height: auto;
+    padding-bottom: 10%;
+}
+
+.about {
+    display: grid;
+    margin: 0 auto;
+    text-align: center;
+    padding-bottom: 5%;
+}
+
+.about-text {
+    padding-top: 30px;
+    text-align: center;
+    width: 50%;
+    margin: 0 auto;
 }
 
 .big-btn {
@@ -98,6 +122,12 @@ nav ul li a:hover {
     overflow: hidden;
 }
 
+.resume-btn {
+    width: 250px;
+    text-align: center;
+    padding: 0;
+}
+
 .big-btn:after {
     content: "";
     background: #172434;
@@ -109,19 +139,19 @@ nav ul li a:hover {
     margin-top: -120%;
     opacity: 0;
     transition: all 0.8s;
-  }
+}
   
-  .big-btn:active:after {
+.big-btn:active:after {
     padding: 0;
     margin: 0;
     opacity: 1;
     transition: 0s;
-  }
+}
   
-  .big-btn:hover {
+.big-btn:hover {
     background-color: #F85C70;
     color: white;
-  }
+}
 
 @media only screen and (max-width: 768px) {
     nav ul {
@@ -133,6 +163,8 @@ nav ul li a:hover {
         text-align: center;
         transition: 0.3s;
         background-color: #1f3046;
+        margin-top: 75px;
+        top: 0px;
     }
 
     nav ul li {
@@ -141,6 +173,7 @@ nav ul li a:hover {
 
     nav ul.show {
         right:0;
+        position: absolute;
     }
 
     .burger.change {
@@ -149,5 +182,11 @@ nav ul li a:hover {
 
     .burger {
         display:block;
+    }
+
+    .about-text {
+        font-size: small;
+        width: 100%;
+        margin: 0 auto;
     }
 }
