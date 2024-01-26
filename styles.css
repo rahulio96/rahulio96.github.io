@@ -50,6 +50,79 @@ nav ul li a:hover {
     padding: 0px 20px;
 }
 
+.home {
+    display: grid;
+    justify-content: center;
+    padding: 35px 10%;
+    margin-top: 8em;
+    text-align: center;
+}
+
+.sub-title {
+    font-size: x-large;
+    border-top: 4px solid #F85C70;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-top: 10px;
+}
+
+.title {
+    font-size: xx-large;
+    border-bottom: 4px solid #F85C70;
+    margin-top: 10%;
+    margin-bottom: 10%;
+    padding-bottom: 10px;
+    width: 250px;
+}
+
+.image {
+    width: 100%;
+    height: auto;
+}
+
+.big-btn {
+    margin: 1em auto ;
+    position: relative;
+    background-color: #172434;
+    width: 100%;
+    height: 2.5em;
+    color: #F85C70;
+    text-align: center;
+    border: 3px solid #F85C70;
+    cursor: pointer;
+    font-size: large;
+    padding: 2.5%;
+    cursor: pointer;
+    font-weight: 500;
+    transition: all .3s ease;
+    overflow: hidden;
+}
+
+.big-btn:after {
+    content: "";
+    background: #172434;
+    display: block;
+    position: absolute;
+    padding-top: 300%;
+    padding-left: 350%;
+    margin-left: -20px!important;
+    margin-top: -120%;
+    opacity: 0;
+    transition: all 0.8s;
+  }
+  
+  .big-btn:active:after {
+    padding: 0;
+    margin: 0;
+    opacity: 1;
+    transition: 0s;
+  }
+  
+  .big-btn:hover {
+    background-color: #F85C70;
+    color: white;
+  }
+
 @media only screen and (max-width: 768px) {
     nav ul {
         top: 75px;
