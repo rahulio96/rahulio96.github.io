@@ -137,8 +137,22 @@ nav ul li a:hover {
     color:#E1DDDD;
 }
 
-.button-container {
-    display: flex;
+.tag-container {
+    padding-top: 20px;
+}
+
+.tag {
+    font-size: smaller;
+    width: fit-content;
+    padding: 1%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 10px;
+    margin-top: 10px;
+    border: 1px solid #E1DDDD;
+    border-radius: 100px;
+    display: inline-block;
 }
 
 .big-btn {
@@ -172,6 +186,7 @@ nav ul li a:hover {
     padding-right: 2%;
     margin-right: 10px;
     border: 1px solid #F85C70;
+    margin-bottom: 1px;
 }
 
 .big-btn:after {
@@ -197,6 +212,17 @@ nav ul li a:hover {
 .big-btn:hover {
     background-color: #F85C70;
     color: white;
+}
+
+.white-btn {
+    color: white;
+    border: 1px solid white;
+}
+
+.white-btn:hover{
+    color: black;
+    font-weight: bold;
+    background-color: white;
 }
 
 @media only screen and (max-width: 768px) {
@@ -251,6 +277,11 @@ nav ul li a:hover {
     .exp-text {
         font-size: small;
         width: 100%;
+    }
+
+    .tag {
+        font-size: x-small;
+        margin-top: 3%;
     }
 
     .exp-btn {
