@@ -104,6 +104,41 @@ nav ul li a:hover {
     margin: 0 auto;
 }
 
+.exp-box {
+    display: grid;
+    width: 50%;
+    margin: 0 auto;
+    margin-left: 5%;
+    margin-right: 5%;
+
+}
+
+.exp-title {
+    text-align: left;
+    color:#F85C70;
+    font-size: 24px;
+}
+
+.exp {
+    display: flex;
+    text-align: left;
+    padding-bottom: 7%;
+    padding-top: 3%;
+    justify-content: center;
+}
+
+.exp-text {
+    padding-top: 30px;
+}
+
+.date {
+    color:#E1DDDD;
+}
+
+.button-container {
+    display: flex;
+}
+
 .big-btn {
     margin: 1em auto ;
     position: relative;
@@ -116,7 +151,6 @@ nav ul li a:hover {
     cursor: pointer;
     font-size: large;
     padding: 2.5%;
-    cursor: pointer;
     font-weight: 500;
     transition: all .3s ease;
     overflow: hidden;
@@ -126,6 +160,16 @@ nav ul li a:hover {
     width: 250px;
     text-align: center;
     padding: 0;
+}
+
+.exp-btn {
+    width: fit-content;
+    padding: 1.2%;
+    text-align: center;
+    padding-left: 2%;
+    padding-right: 2%;
+    margin-right: 10px;
+    border: 1px solid #F85C70;
 }
 
 .big-btn:after {
@@ -188,5 +232,26 @@ nav ul li a:hover {
         font-size: small;
         width: 100%;
         margin: 0 auto;
+    }
+
+    .exp-box {
+        width: 100%;
+    }
+
+    .exp {
+        display: inline;
+    }
+
+    .date {
+        font-size: small;
+    }
+
+    .exp-text {
+        font-size: small;
+        width: 100%;
+    }
+
+    .exp-btn {
+        font-size: small;
     }
 }
