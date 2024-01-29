@@ -125,7 +125,7 @@ nav ul li a:hover {
     display: flex;
     text-align: left;
     padding-bottom: 7%;
-    padding-top: 3%;
+    margin-top: 1.7%;
     justify-content: center;
 }
 
@@ -220,12 +220,35 @@ nav ul li a:hover {
 }
 
 .white-btn:hover{
-    color: black;
-    font-weight: bold;
+    color: #172434;
     background-color: white;
 }
 
-@media only screen and (max-width: 768px) {
+.project-btn {
+    background-color: #172434;
+    padding: 1.5%;
+    padding-left: 3px;
+    padding-right: 3px;
+    width: 70%;
+    justify-self: center;
+    
+    transition: all .3s ease;
+}
+
+.project-btn:hover{
+    cursor: pointer;
+    box-shadow: 0 0 30px white;
+}
+
+.proj-logo {
+    max-width: 100%;
+    height: auto;
+    max-height: 150px;
+    padding-bottom: 4%;
+    padding-top:1%;
+}
+
+@media only screen and (max-width: 780px) {
     nav ul {
         top: 75px;
         right: -100%;
@@ -268,6 +291,7 @@ nav ul li a:hover {
 
     .exp {
         display: inline;
+        margin-top: 10%;
     }
 
     .date {
@@ -291,6 +315,19 @@ nav ul li a:hover {
 
     .exp-box {
         margin: 0 auto;
+    }
+
+    .project-btn {
+        width: 100%;
+        padding: 4%;
+    }
+
+    .proj-logo {
+        max-height: 100px;
+    }
+
+    .exp-title {
+        font-size: large;
     }
 
 }
