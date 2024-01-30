@@ -45,7 +45,7 @@ nav ul li a:hover {
 
 .burger {
     transition: all 0.3s ease 0s;
-    font-size: 1.5em;
+    font-size: 1.2em;
     cursor: pointer;
     display: none;
     padding: 0px 20px;
@@ -250,8 +250,15 @@ nav ul li a:hover {
 }
 
 @media only screen and (max-width: 780px) {
+    nav {
+        position: fixed;
+        width: 80%;
+        top:0;
+        background-color: #172434;
+        z-index: 1;
+    }
+
     nav ul {
-        top: 75px;
         right: -100%;
         position: fixed;
         flex-direction: column;
@@ -259,7 +266,7 @@ nav ul li a:hover {
         text-align: center;
         transition: 0.3s;
         background-color: #1f3046;
-        margin-top: 75px;
+        margin-top: 60px;
         top: 0px;
     }
 
