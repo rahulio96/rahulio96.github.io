@@ -20,8 +20,8 @@ header nav {
 }
 
 .name {
-    cursor: pointer;
     padding: 0px 20px;
+    font-weight: 1000;
 }
 
 nav ul {
@@ -56,8 +56,12 @@ nav ul li a:hover {
     justify-content: center;
     padding: 35px 10%;
     margin: 0 auto;
-    margin-top: 8em;
+    margin-top: 5em;
     text-align: center;
+}
+
+.main {
+    margin-top: 7em;
 }
 
 .sub-title {
@@ -129,6 +133,10 @@ nav ul li a:hover {
     justify-content: center;
 }
 
+.exp-last {
+    padding-bottom: 0;
+}
+
 .exp-text {
     padding-top: 30px;
 }
@@ -176,6 +184,12 @@ nav ul li a:hover {
     width: 250px;
     text-align: center;
     padding: 0;
+}
+
+.resume-link {
+    display: flex;
+    width: fit-content;
+    justify-self: center;
 }
 
 .exp-btn {
@@ -256,7 +270,7 @@ nav ul li a:hover {
 }
 
 .contact-text {
-    padding: 2em;
+    margin: 2em;
     text-align: center;
     display: grid;
 }
