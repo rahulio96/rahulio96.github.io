@@ -277,9 +277,9 @@ nav ul li a:hover {
 .proj-logo {
     max-width: 100%;
     height: auto;
-    max-height: 150px;
-    padding-bottom: 4%;
-    padding-top:1%;
+    max-height: 125px;
+    margin-bottom: 4%;
+    margin-top:1%;
 }
 
 .contact {
