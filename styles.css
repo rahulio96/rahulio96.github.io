@@ -7,6 +7,22 @@
     scroll-behavior: smooth;
 }
 
+.hidden-anim {
+    opacity: 0;
+    transition: all 1s;
+}
+
+.show-anim {
+    opacity: 1;
+    transform: translateX(0);
+}
+
+@media (prefers-reduced-motion: no-preference) {
+    .hidden-anim {
+      transition: all 1s;
+    }
+}
+
 body {
     background-color: #172434;
     background: linear-gradient(62deg, #172434, #1a2c3f);
