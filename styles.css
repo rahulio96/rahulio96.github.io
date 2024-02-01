@@ -42,7 +42,7 @@ nav ul li a {
 
 nav ul li a:hover {
     transition: all 0.3s ease 0s;
-    color:#F85C70;
+    color:#33CA7F;
 }
 
 .burger {
@@ -68,11 +68,12 @@ nav ul li a:hover {
 
 .sub-title {
     font-size: x-large;
-    border-top: 4px solid #F85C70;
+    border-top: 2px solid #33CA7F;
     padding-top: 10px;
     margin: 0 auto;
     text-align: center;
     padding-bottom: 10%;
+    margin-top: 10%;
 }
 
 .title {
@@ -85,7 +86,7 @@ nav ul li a:hover {
 }
 
 .line {
-    border: 2px solid #F85C70;
+    border: 1px solid #33CA7F;
     margin: 0 auto;
     width: 15em;
     margin-bottom: 20px;
@@ -124,7 +125,7 @@ nav ul li a:hover {
 
 .exp-title {
     text-align: left;
-    color:#F85C70;
+    color:#33CA7F;
     font-size: 24px;
 }
 
@@ -172,9 +173,9 @@ nav ul li a:hover {
     background-color: transparent;
     width: 100%;
     height: 2.5em;
-    color: #F85C70;
+    color: #33CA7F;
     text-align: center;
-    border: 3px solid #F85C70;
+    border: 2px solid #33CA7F;
     cursor: pointer;
     font-size: large;
     padding: 2.5%;
@@ -202,7 +203,7 @@ nav ul li a:hover {
     padding-left: 2%;
     padding-right: 2%;
     margin-right: 10px;
-    border: 1px solid #F85C70;
+    border: 1px solid #33CA7F;
     margin-bottom: 1px;
 }
 
@@ -227,7 +228,7 @@ nav ul li a:hover {
 }
   
 .big-btn:hover {
-    background-color: #F85C70;
+    background-color: #33CA7F;
     color: white;
 }
 
@@ -278,7 +279,7 @@ nav ul li a:hover {
 }
 
 .mail-link:hover {
-    color:#F85C70;
+    color:#33CA7F;
     text-decoration: underline;
 }
 
@@ -289,6 +290,14 @@ footer nav {
     padding: 18px 10%;
     border-top: 1px solid #E1DDDD;
     margin-top: 0;
+}
+
+span {
+    color:#33CA7F;
+}
+
+.white {
+    color: white;
 }
 
 @media only screen and (max-width: 780px) {
@@ -322,7 +331,7 @@ footer nav {
     }
 
     .burger.change {
-        color:#F85C70;
+        color:#33CA7F;
     }
 
     .burger {
