@@ -294,6 +294,10 @@ nav ul li a:hover {
     display: grid;
 }
 
+.mail-link {
+    transition: all 0.3s;
+}
+
 .mail-link:hover {
     color:#33CA7F;
     text-decoration: underline;
