@@ -9,17 +9,17 @@
 
 .hidden-anim {
     opacity: 0;
-    transition: all 1s;
+    transform: translateY(-10%);
 }
 
 .show-anim {
     opacity: 1;
-    transform: translateX(0);
+    transform: translateY(0);
 }
 
 @media (prefers-reduced-motion: no-preference) {
     .hidden-anim {
-      transition: all 1s;
+      transition: all 1.5s;
     }
 }
 
