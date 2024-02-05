@@ -25,8 +25,22 @@
 
 body {
     background-color: #172434;
-    background: linear-gradient(62deg, #172434, #1a2c3f);
-    height: 100%;
+}
+
+body:after {
+    background: linear-gradient(335deg, #272835 0%, #172434 100%);
+    content:"";
+    position:fixed;
+    top:0;
+    height:100vh;
+    left:0;
+    right:0;
+    z-index:-1;
+    background: url(./images/background.png) center center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
 }
 
 header nav {
@@ -339,6 +353,10 @@ span {
         background-color: #1f3046;
         margin-top: 60px;
         top: 0px;
+    }
+
+    .image {
+        width: 65%;
     }
 
     header nav ul li {
