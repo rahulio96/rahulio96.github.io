@@ -147,7 +147,7 @@ nav ul li a:hover {
 .exp {
     display: flex;
     text-align: left;
-    padding-bottom: 7%;
+    margin-bottom: 3%;
     margin-top: 1.7%;
     justify-content: center;
 }
@@ -265,6 +265,7 @@ nav ul li a:hover {
     justify-self: center;
     border: 1px solid rgb(225, 221, 221, 0.2);
     transition: all .3s ease;
+    margin-bottom: 0.5%;
 }
 
 .project-btn:hover{
