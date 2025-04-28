@@ -1,3 +1,4 @@
+window.location.href = "https://rahulio.dev";
 
 const burger = document.querySelector(".burger");
 const nav = document.querySelector("header nav ul");
